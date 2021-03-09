@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
         #map {
-            width: 1014px;
-            height: 540px;
+            width: 1520px;
+            height: 810px;
         }
         </style>
         <title></title>
@@ -207,7 +207,7 @@
                         <td>' + (feature.properties['Subvention'] !== null ? autolinker.link(feature.properties['Subvention'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
+            layer.bindPopup(popupContent, {maxHeight: 500});
         }
 
         function style_Projetsmobilitduquotidien_4_0() {
